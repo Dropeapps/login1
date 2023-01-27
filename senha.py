@@ -7,8 +7,8 @@ st.title("Autenticação de usuário")
 
 login = st.text_input("Digite seu login: ")
 if (login == login_secreto):
-senha = st.text_input("Digite a senha: ", type='password')
- if (senha == senha_secreta):
+spp = st.text_input("Digite a senha: ", type='password')
+ if (spp == senha_secreta):
 st.write("Login feito com sucesso!")
  else:
 st.write("Sua senha está incorreta")
